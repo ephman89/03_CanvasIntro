@@ -40,7 +40,6 @@ function handleShipAnimation() {
 function RenderNewObject(context) {
     context.fillStyle = 'rgb(200,0,0)';
     context.fillRect (25,25,100,100);
-  
     context.translate (20,20);
 
 }
