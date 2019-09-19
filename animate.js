@@ -38,14 +38,14 @@ function handleShipAnimation() {
 }
 
 function RenderNewObject(context) {
+
     context.fillStyle = 'rgb(200,0,0)';
-    context.fillRect (25,25,100,100);
-    context.translate (20,20);
+    context.fillRect (CUBE.x,CUBE.y,100,100);
+    CUBE.x = CUBE.x+1;
 
 }
 
 function HandleNewObjectMovement() {
-
 }
 
 function runGame() {
