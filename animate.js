@@ -41,11 +41,12 @@ function RenderNewObject(context) {
 
     context.fillStyle = 'rgb(200,0,0)';
     context.fillRect (CUBE.x,CUBE.y,100,100);
-    CUBE.x = CUBE.x+1;
+
 
 }
 
 function HandleNewObjectMovement() {
+    CUBE.x = CUBE.x+1;
 }
 
 function runGame() {
