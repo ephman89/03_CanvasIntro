@@ -38,15 +38,16 @@ function handleShipAnimation() {
 }
 
 function RenderNewObject(context) {
-
     context.fillStyle = 'rgb(200,0,0)';
     context.fillRect (CUBE.x,CUBE.y,100,100);
-
-
 }
 
 function HandleNewObjectMovement() {
+  if (CUBE.x != GAME.canvas.width - 50){
     CUBE.x = CUBE.x+1;
+  } else {
+    CUBE.y = CUBE.y+1;
+  }
 }
 
 function runGame() {
