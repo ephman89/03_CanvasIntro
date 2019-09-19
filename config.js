@@ -20,3 +20,8 @@ var NEW_OBJECT = {
   x : 0,
   y : 0
 };
+
+var CUBE = {
+  x:0,
+  y:0,
+};
